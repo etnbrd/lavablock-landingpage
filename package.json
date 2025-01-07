@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@datadog/datadog-ci": "^2.46.2",
     "astro": "^5.1.3"
   }
 }
