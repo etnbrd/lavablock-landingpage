@@ -10,6 +10,11 @@
 	<body>
 		<slot />
 	</body>
+	<footer>
+		<div class="container">
+			<p>&copy; 2025 Lavablock. All rights reserved.</p>
+		</div>
+	</footer>
 </html>
 
 <style>
@@ -18,5 +23,22 @@
 		margin: 0;
 		width: 100%;
 		height: 100%;
+	}
+
+	body, footer {
+		margin: auto;
+		width: 50em;
+	}
+
+	footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding-block: 10rem 0;
+	}
+
+	footer .container {
+		text-align: center;
 	}
 </style>
